@@ -7,7 +7,7 @@ const Footer = () => {
         <span className="text-textPrimary">Vercel</span>.
       </p>
       <p>
-        &copy; 2024{" "}
+        © 2024{" "}
         <a
           className="text-textPrimary"
           href="/github"

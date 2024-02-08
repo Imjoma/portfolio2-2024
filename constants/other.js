@@ -5,7 +5,6 @@ import {
   AiOutlineMail,
 } from "react-icons/ai";
 import { IoLogoLinkedin } from "react-icons/io";
-import { GrGraphQl } from "react-icons/gr";
 
 import {
   SiJavascript,
@@ -14,13 +13,21 @@ import {
   SiMongodb,
   SiRedux,
   SiContentful,
-  SiTiktok,
-  SiTrpc,
 } from "react-icons/si";
-import { FaReact, FaNodeJs, FaGitAlt, FaFigma } from "react-icons/fa";
+import {
+  FaReact,
+  FaNodeJs,
+  FaGitAlt,
+  FaFigma,
+  FaFacebookF,
+} from "react-icons/fa";
 import { TbBrandNextjs } from "react-icons/tb";
 
 export const navigation = [
+  {
+    name: "About",
+    url: "/#about",
+  },
   {
     name: "Technologies",
     url: "/#technologies",
@@ -32,10 +39,6 @@ export const navigation = [
   {
     name: "Projects",
     url: "/#projects",
-  },
-  {
-    name: "About",
-    url: "/#about",
   },
 ];
 
@@ -56,10 +59,10 @@ export const socials = [
     url: "/instagram",
     Icon: AiOutlineInstagram,
   },
-  //   {
-  //     url: '/tiktok',
-  //     Icon: SiTiktok
-  //   }
+  {
+    url: "/facebook",
+    Icon: FaFacebookF,
+  },
 ];
 
 export const techStack = [

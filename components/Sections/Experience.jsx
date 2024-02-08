@@ -19,7 +19,7 @@ const Experience = () => {
                 <h4 className="font-semibold">{newTitle}</h4>
                 <p className="text-sm text-textTertiary">{location}</p>
               </div>
-              <div className="mt-5 space-y-2 text-sm text-textSecondary">
+              <div className="mt-5 space-y-2 text-base text-textTertiary">
                 {duties.map((duty) => (
                   <p key={duty.replaceAll(" ", "-")} className="">
                     {"- " + duty}

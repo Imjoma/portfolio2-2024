@@ -14,9 +14,7 @@ const SubInfo = () => {
           In the second half of 2021, I started the Web Development path. I like
           the fact that I can design an app and push it forward into a
           real-world application. The following year, I graduated at{" "}
-          <span className='font-semibold text-textPrimary cursor-[url("/assets/images/profile-masked.png"),_pointer]'>
-            ICCT Colleges
-          </span>{" "}
+          <span className="font-semibold text-textPrimary">ICCT Colleges</span>{" "}
           with Bachelor's Degree in Information Technology.
         </p>
         <p>

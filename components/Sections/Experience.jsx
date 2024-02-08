@@ -30,6 +30,16 @@ const Experience = () => {
           );
         })}
       </ul>
+      <div className="mt-8">
+        <a
+          href="https://drive.google.com/file/d/1k7Ew4qAPGgS4tuzDb94caRjvdVW3JBxg/view"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="px-5 py-3 font-semibold duration-200 ease-in-out rounded-md bg-themeColorDarker hover:bg-opacity-0 text-textSecondary hover:text-themeColorPrimary"
+        >
+          View resume
+        </a>
+      </div>
     </section>
   );
 };

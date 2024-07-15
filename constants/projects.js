@@ -1,15 +1,27 @@
 export const projects = [
   {
+    title: "Stuck in Design",
+    image: "stuckindesign-sm.png",
+    alt: "Stuck in Design",
+    links: {
+      "design-figma": "boys",
+      "dev-github": "https://github.com/Imjoma/stuckindesign",
+      "production-link": "https://stuckindesign.vercel.app/",
+    },
+    description: "designs that didn't reach the web.",
+    techStack: ["ReactJS", "NextJS", "Tailwind CSS", "Swiper"],
+  },
+
+  {
     title: "Boysplanet",
     image: "boysplanet-sm.png",
-    alt: "Unofficial Boygitstagramsplanet Promotional Website",
+    alt: "Unofficial Boysplanet Promotional Website",
     links: {
       "design-figma": "boys",
       "dev-github": "https://github.com/Imjoma/boysplanet",
       "production-link": "https://boysplanet.vercel.app/",
     },
-    description:
-      "a promotional web application for the survival show boysplanet.",
+    description: "a promotional web application for boysplanet.",
     techStack: ["ReactJS", "NextJS", "Tailwind CSS", "YouTube API"],
   },
   {
@@ -22,8 +34,7 @@ export const projects = [
       "production-link": "https://gitstagram.vercel.app/",
     },
 
-    description:
-      "a web application that allows users to search and save a github accounts.",
+    description: "search and save a github accounts.",
     techStack: ["ReactJS", "NextJS", "Tailwind CSS"],
   },
   {

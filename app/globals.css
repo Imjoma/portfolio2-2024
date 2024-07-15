@@ -16,6 +16,6 @@ html {
 
 @layer components {
   .section-title {
-    @apply mb-4 text-xl font-semibold text-themeColorPrimary;
+    @apply mb-4 text-xl font-semibold;
   }
 }

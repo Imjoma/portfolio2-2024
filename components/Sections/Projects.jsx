@@ -19,11 +19,11 @@ const Projects = () => {
                 {/* title */}
                 <h4 className="block p-1 font-semibold sm:hidden">{title}</h4>
                 {/* thumbnail */}
-                <div className="relative w-[240px] h-[135px] border-2 aspect-video border-themeColorPrimary2 border-opacity-60 rounded-lg">
+                <div className="relative w-[240px] overflow-hidden border-2 aspect-video border-themeColorPrimary2 border-opacity-60 rounded-lg">
                   <Image
                     src={`/assets/images/projects/${image}`}
                     fill
-                    className="absolute object-cover w-full h-full rounded-lg"
+                    className="absolute object-cover w-full h-full "
                     alt={alt}
                     sizes="(max-width: 768px) 100vw"
                     loading="lazy"

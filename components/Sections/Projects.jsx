@@ -14,12 +14,12 @@ const Projects = () => {
             return (
               <li
                 key={title}
-                className="flex flex-col space-y-2 sm:space-y-0 sm:flex-row group lg:group-hover/list:opacity-60 lg:hover:!opacity-100 duration-300 ease-in-out"
+                className="flex flex-col space-y-2 sm:space-y-0 sm:flex-row group lg:group-hover/list:opacity-40 lg:hover:!opacity-100 duration-300 ease-in-out"
               >
                 {/* title */}
                 <h4 className="block p-1 font-semibold sm:hidden">{title}</h4>
                 {/* thumbnail */}
-                <div className="relative overflow-hidden border-2 rounded-lg h-44 w-72 sm:w-48 sm:h-28 border-themeColorPrimary2 border-opacity-60">
+                <div className="relative overflow-hidden border-2 rounded-lg h-44 w-72 sm:w-48 sm:h-28 border-themeColorPrimary2 border-opacity-40">
                   <Image
                     src={`/assets/images/projects/${image}`}
                     fill

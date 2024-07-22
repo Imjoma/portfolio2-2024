@@ -14,8 +14,12 @@ html {
   scroll-behavior: smooth;
 }
 
+.section-title {
+  font-family: var(--font-antonio);
+}
+
 @layer components {
   .section-title {
-    @apply mb-4 text-xl font-semibold;
+    @apply mb-5 text-2xl font-semibold;
   }
 }

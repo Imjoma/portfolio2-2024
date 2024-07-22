@@ -2,7 +2,7 @@ import React from "react";
 
 const SubInfo = () => {
   return (
-    <section id="about" className="pt-2 text-textTertiary">
+    <section id="about" className="pt-12 lg:pt-0 text-textTertiary">
       <h2 className="text-white section-title lg:hidden">About</h2>
       <div className="space-y-5 ">
         <p>

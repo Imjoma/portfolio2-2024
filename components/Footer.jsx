@@ -4,16 +4,15 @@ const antonio = Antonio({ subsets: ["latin"] });
 
 const Footer = () => {
   return (
-    <footer className={antonio.className + " text-textTertiar"}>
+    <footer className={antonio.className + " text-textTertiary"}>
       <p>
-        Built with <span className="text-textPrimary">Next.js</span> and{" "}
-        <span className="text-textPrimary">Tailwind CSS</span>, deployed with{" "}
-        <span className="text-textPrimary">Vercel</span>.
+        Built with <span>Next.js</span> and <span>Tailwind CSS</span>, deployed
+        with <span>Vercel</span>.
       </p>
       <p>
         © 2024{" "}
         <a
-          className="text-textPrimary"
+          className=" text-textPrimary hover:text-themeColorPrimary"
           href="/github"
           target="_blank"
           rel="noreferrer noopener"

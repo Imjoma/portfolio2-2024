@@ -19,11 +19,11 @@ const Projects = () => {
                 {/* title */}
                 <h4 className="block p-1 font-semibold sm:hidden">{title}</h4>
                 {/* thumbnail */}
-                <div className="relative w-[240px] overflow-hidden border-2 aspect-video border-themeColorPrimary2 border-opacity-60 rounded-lg">
+                <div className="relative overflow-hidden border-2 rounded-lg h-44 w-72 sm:w-48 sm:h-28 border-themeColorPrimary2 border-opacity-60">
                   <Image
                     src={`/assets/images/projects/${image}`}
                     fill
-                    className="absolute object-cover w-full h-full "
+                    className="absolute object-cover w-full h-auto"
                     alt={alt}
                     sizes="(max-width: 768px) 100vw"
                     loading="lazy"
@@ -57,7 +57,7 @@ const Projects = () => {
                   </div>
 
                   {/* desc */}
-                  <p className="pt-6 text-base duration-300 ease-in-out indent-2 text-textTertiary group-hover:text-textSecondary">
+                  <p className="pt-6 text-[15px] duration-300 ease-in-out indent-2 text-textTertiary group-hover:text-textSecondary">
                     {"- " + description}
                   </p>
 

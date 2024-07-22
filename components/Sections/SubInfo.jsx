@@ -3,6 +3,7 @@ import React from "react";
 const SubInfo = () => {
   return (
     <section id="about" className="pt-2 text-textTertiary">
+      <h2 className="text-white section-title lg:hidden">About</h2>
       <div className="space-y-5 ">
         <p>
           <span className=' font-semibold text-textPrimary cursor-[url("/assets/images/hand-wave.png"),_pointer]'>

@@ -53,10 +53,6 @@ const Navigation = () => {
         const elementRect = targetSection.getBoundingClientRect().top;
         const elementPosition = elementRect - bodyRect;
         const offsetPosition = elementPosition - offset;
-        console.log("bodyRect => " + bodyRect);
-        console.log("elementRect => " + elementRect);
-        console.log("elementPosition => " + elementPosition);
-        console.log("offsetPosition => " + offsetPosition);
 
         window.scrollTo({
           top: offsetPosition,
@@ -74,13 +70,6 @@ const Navigation = () => {
           const transition = "transition-all duration-200 ease-in-out";
 
           const isCurrentSection = currentSection === url.replace(REGEX, "");
-          // console.log(
-          //   isCurrentSection +
-          //     " => " +
-          //     currentSection +
-          //     " === " +
-          //     url.replace(REGEX, "")
-          // );
 
           return (
             <li key={url}>

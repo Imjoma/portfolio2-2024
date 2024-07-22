@@ -8,7 +8,7 @@ export const projects = [
       "dev-github": "https://github.com/Imjoma/stuckindesign",
       "production-link": "https://stuckindesign.vercel.app/",
     },
-    description: "designs that didn't reach the web.",
+    description: "13 UX/UI design approach that haven't been shared online",
     techStack: ["ReactJS", "NextJS", "Tailwind CSS", "Swiper"],
   },
 

@@ -30,7 +30,7 @@ const Projects = () => {
                   />
                 </div>
                 {/* content */}
-                <div className="ml-0 sm:ml-4">
+                <div className="ml-0 sm:w-96 sm:ml-4">
                   {/* title */}
                   <h4 className="hidden font-semibold sm:block">{title}</h4>
 

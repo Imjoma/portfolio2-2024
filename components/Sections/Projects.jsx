@@ -45,15 +45,17 @@ const Projects = () => {
                       <span>Github</span>
                       <FiGithub />
                     </a>
-                    <a
-                      href={links["production-link"]}
-                      className="flex items-center space-x-1 text-sm font-semibold duration-300 ease-in-out text-themeColorPrimary2 hover:text-themeColorPrimary"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <span>Link</span>
-                      <AiOutlineArrowUp className="rotate-45 " />
-                    </a>
+                    {links["production-link"] && (
+                      <a
+                        href={links["production-link"]}
+                        className="flex items-center space-x-1 text-sm font-semibold duration-300 ease-in-out text-themeColorPrimary2 hover:text-themeColorPrimary"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <span>Link</span>
+                        <AiOutlineArrowUp className="rotate-45 " />
+                      </a>
+                    )}
                   </div>
 
                   {/* desc */}

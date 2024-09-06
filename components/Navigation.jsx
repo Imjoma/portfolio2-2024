@@ -77,9 +77,9 @@ const Navigation = () => {
                 <div
                   className={`${fixedStyle} ${transition} ${
                     isCurrentSection
-                      ? "w-[60px] bg-textPrimary"
-                      : "w-[30px] bg-textSecondary"
-                  } group-hover:text-textPrimary group-hover:w-[60px] w-[30px] bg-textSecondary`}
+                      ? "w-[60px] bg-gradient-to-tr from-transparent to-textPrimary"
+                      : "w-[30px] bg-white opacity-20"
+                  } group-hover:text-textPrimary group-hover:w-[60px] w-[30px] bg-textSecondary link-indicator`}
                 ></div>
                 <span
                   className={` text-sm uppercase ${

@@ -18,6 +18,22 @@ html {
   font-family: var(--font-antonio);
 }
 
+.link-indicator {
+  position: relative;
+}
+
+.link-indicator::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translateY(-2px);
+  border-radius: 999px;
+  width: 5px;
+  height: 5px;
+  background: white;
+}
+
 @layer components {
   .section-title {
     @apply mb-5 text-2xl font-semibold;

@@ -20,6 +20,8 @@ import {
   FaGitAlt,
   FaFigma,
   FaFacebookF,
+  FaGoogle,
+  FaYoutube,
 } from "react-icons/fa";
 import { TbBrandNextjs } from "react-icons/tb";
 
@@ -112,6 +114,14 @@ export const techStack = [
   {
     name: "Contentful",
     Icon: SiContentful,
+  },
+  {
+    name: "Google API",
+    Icon: FaGoogle,
+  },
+  {
+    name: "YouTube API",
+    Icon: FaYoutube,
   },
   {
     name: "Github",

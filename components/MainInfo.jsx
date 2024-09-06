@@ -26,7 +26,7 @@ const MainInfo = () => {
               </h1>
             </Link>
             <p className={antonio.className + " text-2xl font-semibold"}>
-              Front-End Developer
+              Frontend Developer
             </p>
           </div>
           <HeaderTag />

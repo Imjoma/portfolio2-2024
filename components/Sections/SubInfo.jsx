@@ -9,7 +9,7 @@ const SubInfo = () => {
           <span className=' font-semibold text-textPrimary cursor-[url("/assets/images/hand-wave.png"),_pointer]'>
             Hi! my name is Joma,{" "}
           </span>{" "}
-          I design and develop web applications.
+          I design and build web applications.
         </p>
         <p>
           In the first half of 2021, I started the Web Development path. I like
@@ -20,7 +20,10 @@ const SubInfo = () => {
         <p>
           These days, on top of building my own projects, I keep myself occupied
           by learning new things especially anything about digital content
-          creation. When I'm not working, I usually spend time watching videos.
+          creation. I also participate on some online courses, dev challenges
+          and reaching out professionals in the same field on various platforms.
+          When I'm not working, I usually spend time watching videos or hangout
+          with my friends at least once a week.
         </p>
       </div>
     </section>

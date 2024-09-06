@@ -6,7 +6,7 @@ const HeaderTag = () => {
       {tags.map((i) => (
         <li
           key={i}
-          className="px-4 py-2 text-sm rounded-full text-textSecondary bg-tagBackground"
+          className="px-4 py-2 text-sm bg-white rounded-full text-textSecondary bg-opacity-10"
         >
           {i}
         </li>

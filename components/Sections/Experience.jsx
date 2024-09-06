@@ -4,7 +4,7 @@ const Experience = () => {
   return (
     <section id="experience">
       <h2 className="section-title">Experience</h2>
-      <ul>
+      <ul className="space-y-8">
         {experience.map(({ title, company, location, duties }) => {
           const id =
             title.replaceAll(" ", "-").toLowerCase() +
@@ -30,9 +30,9 @@ const Experience = () => {
           );
         })}
       </ul>
-      <div className="mt-8">
+      <div className="mt-10">
         <a
-          href="/assets/JoseMariaIpio_Resume.pdf"
+          href="/assets/Jose Maria Ipio-Frontend Developer-Resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="px-5 py-3 font-semibold duration-200 ease-in-out rounded-md bg-themeColorPrimary bg-opacity-60 hover:bg-opacity-0 text-textPrimary hover:text-themeColorPrimary"

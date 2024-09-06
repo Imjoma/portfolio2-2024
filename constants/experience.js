@@ -2,7 +2,7 @@ export const experience = [
   {
     title: "UX/UI Designer",
     company: "30DaysOfReact",
-    location: "Freelance (Remote)",
+    location: "Volunteer (Remote)",
     range: "Aug. 2024 - Present",
     duties: [
       "redesigning an existing fullstack learning web application in Figma with Google Ad placement strategy in mind.",

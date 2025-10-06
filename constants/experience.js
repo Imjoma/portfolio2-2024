@@ -1,11 +1,22 @@
 export const experience = [
+   {
+    title: "Game Operation Specialist",
+    company: "GameOps Inc.",
+    location: "Ortigas, Pasig City",
+    range: "Nov. 2024 - Sept. 2025",
+    duties: [
+      "able to work on a BPO standard environment; located at Pasig City",
+      "handled ticket-based concerns related to the supported MMORPG games",
+      "not just answering inquiries, but an operation that involves invetigation and modification on the player's account",
+    ],
+  },
   {
     title: "UX/UI Designer",
     company: "30DaysOfReact",
     location: "Volunteer (Remote)",
-    range: "Aug. 2024 - Present",
+    range: "Aug. 2024 - Sept. 2024",
     duties: [
-      "redesigning an existing fullstack learning web application in Figma with Google Ad placement strategy in mind.",
+      "redesigned an existing fullstack learning web application in Figma with Google Ad placement strategy in mind.",
       "introduce effective user experience from page navigation, readabilty and nudge to action that prioriti£e the user’s needs.",
       "personally reaching out to the contributor for reviews and feedbacks.",
     ],

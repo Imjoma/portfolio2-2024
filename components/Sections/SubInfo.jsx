@@ -13,17 +13,13 @@ const SubInfo = () => {
         </p>
         <p>
           In the first half of 2021, I started the Web Development path. I like
-          the fact that from just an idea, I can turn it into a real-world
-          application. The following year, I graduated at ICCT Colleges with
-          Bachelor's Degree in Information Technology.
+          the fact that from just any simple ideas, provide my thought process then design a mock up; I am able to turn those into a real-world application. 
         </p>
         <p>
-          These days, on top of building my own projects, I keep myself occupied
+          These days, on top of revisiting my old projects, I keep myself occupied
           by learning new things especially anything about digital content
-          creation. I also participate on some online courses, dev challenges
-          and reaching out professionals in the same field on various platforms.
-          When I'm not working, I usually spend time watching videos or hangout
-          with my friends at least once a week.
+          creation. I am also in the process of collaborating with a developer I know who is in the same field as mine.
+          When I'm not working, I usually spend time watching videos or hanging out with my friends every other time.
         </p>
       </div>
     </section>

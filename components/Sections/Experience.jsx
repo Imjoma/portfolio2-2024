@@ -32,7 +32,7 @@ const Experience = () => {
       </ul>
       <div className="mt-10">
         <a
-          href="/assets/Jose Maria Ipio-Frontend Developer-Resume.pdf"
+          href="/assets/Jose Maria Ipio-FullstackDeveloper-Resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="px-5 py-3 font-semibold duration-200 ease-in-out rounded-md bg-themeColorPrimary bg-opacity-60 hover:bg-opacity-0 text-textPrimary hover:text-themeColorPrimary"

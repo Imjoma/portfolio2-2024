@@ -30,6 +30,8 @@ const Experience = () => {
           );
         })}
       </ul>
+      {/* On Hold: View Resume element */}
+      {/* 
       <div className="mt-10">
         <a
           href="/assets/Jose Maria Ipio-FullstackDeveloper-Resume.pdf"
@@ -40,6 +42,7 @@ const Experience = () => {
           View resume
         </a>
       </div>
+      */}
     </section>
   );
 };

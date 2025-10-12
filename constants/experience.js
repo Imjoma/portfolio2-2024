@@ -1,5 +1,5 @@
 export const experience = [
-   {
+  {
     title: "Game Operation Specialist",
     company: "GameOps Inc.",
     location: "Ortigas, Pasig City",
@@ -17,17 +17,17 @@ export const experience = [
     range: "Aug. 2024 - Sept. 2024",
     duties: [
       "redesigned an existing fullstack learning web application in Figma with Google Ad placement strategy in mind.",
-      "introduce effective user experience from page navigation, readabilty and nudge to action that prioriti£e the user’s needs.",
+      "introduce effective user experience from page navigation, readabilty and nudge to action that prioritize the user’s needs.",
       "personally reaching out to the contributor for reviews and feedbacks.",
     ],
   },
   {
     title: "Junior Developer",
     company: "Personal Projects",
-    location: "Montalban City, Philippines",
+    location: "Hometown, Philippines",
     range: "Jul. 2021 - Present",
     duties: [
-      "design and build web application with NextJS (ReactJS) and Tailwind CSS.",
+      "design and build web applications reflecting my growth and limitations",
       "building a solid foundation in web development; from reading documentations, writing and testing reusable components up to refactoring a production level code with Github and Vercel.",
       "participating in online courses, dev challenges and reaching out professionals in the same field on various platforms.",
     ],
@@ -44,14 +44,14 @@ export const experience = [
     ],
   },
   {
-    title: "YouTube Content Creator",
-    company: "YouTube",
+    title: "Content/Video Producer",
+    company: "Independent",
     location: "Part Time (Remote)",
     range: "Jun. 2020 - Feb. 2024",
     duties: [
-      "managed a small gaming channel with accumulative 400+ long form videos and more.",
+      "managed and produced contents on a small gaming channel with accumulative 400+ long form videos and more.",
       "applied creativeness in graphic design and video editing with Filmora, Adobe Photoshop and even Microsoft PowerPoint.",
-      "familiarity with YouTube Studio for data analysis to optimi£e content performance.",
+      "familiarity with YouTube Studio for data analysis to optimize content performance.",
     ],
   },
 ];

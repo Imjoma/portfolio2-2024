@@ -10,7 +10,7 @@ const Footer = () => {
         with <span>Vercel</span>.
       </p>
       <p>
-        © 2024{" "}
+        © 2025{" "}
         <a
           className=" text-textPrimary hover:text-themeColorPrimary"
           href="/github"
